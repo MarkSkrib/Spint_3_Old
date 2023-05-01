@@ -10,3 +10,7 @@ CABINET_PAGE = "//a[text()='Профиль']" # Ссылка "Профиль" в
 CABINET_PAGE_LOGIN_INFO = "//label[text()='Логин']/following-sibling::input" # Поле Email в личном кабинете кабинете
 ERROR_MESSAGE_REGISTER = "//p[starts-with(@class,'input__error')]" # Сообщение об ошибке
 MAIN_PAGE = "//section/h1[starts-with(text(),'Соберите')]" # Главная страница с заголовком "Соберите бургер"
+MAIN_PAGE_LOGIN_BTN = "//button[text()='Войти в аккаунт']" # Кнопка "Войти в аккаунт" на главной странице
+LOGGED_IN = "//button[text()='Оформить заказ']" # Кнопка оформить заказ на главной странице
+LOGIN_LINK_IN_OTHER_PAGE = "//a[text()='Войти']" # Ссылка "Войти" на страницу входа в других страницах
+RESET_PASSWORD_PAGE = "//h2[starts-with(text(),'Восстановление')]" # Страница с заголовком "Восстановление пароля"
