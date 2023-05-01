@@ -18,3 +18,8 @@ CONSTRUCTOR_LINK = "//a[starts-with(@class, 'AppHeader_header__link')]/p[text()=
 MAIN_PAGE_MENU_BURGER = "//div[starts-with(@class, 'BurgerIngredients_ingredients__menuContainer')]/h2[1]" # Заголовок "Булки"
 LOGO_LINK = "//div[starts-with(@class, 'AppHeader_header__logo')]/a" # Ссылка на лого
 LOGOUT_BUTTON = "//button[text()='Выход']" # Кнопка "Выход"
+FILLING_TAB = "//div[starts-with(@class, 'tab_tab')]/span[text()='Начинки']" # кнопка "Начинки"
+BULKI_TAB = "//div[starts-with(@class, 'tab_tab')]/span[text()='Булки']" # кнопка "Булки"
+SAUSAGE_TAB = "//div[starts-with(@class, 'tab_tab')]/span[text()='Соусы']" # кнопка "Соусы"
+MAIN_PAGE_MENU_SAUSAGE = "//div[starts-with(@class, 'BurgerIngredients_ingredients__menuContainer')]/h2[2]" # Заголовок "Соусы"
+MAIN_PAGE_MENU_FILLING = "//div[starts-with(@class, 'BurgerIngredients_ingredients__menuContainer')]/h2[3]" # Заголовок "Начинки"

@@ -10,4 +10,14 @@ def login_module(driver, email, password):
 
     driver.find_element(By.XPATH, constants.LOGIN_BUTTON).click()
 
-
+def is_element_visible(driver, section):
+    return driver.execute_script("""
+        var element = arguments[0];
+        var bounding = element.getBoundingClientRect();
+        return (
+            bounding.top >= 0 &&
+            bounding.left >= 0 &&
+            bounding.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+            bounding.right <= (window.innerWidth || document.documentElement.clientWidth)
+        );
+    """, section)
