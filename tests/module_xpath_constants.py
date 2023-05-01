@@ -17,3 +17,4 @@ RESET_PASSWORD_PAGE = "//h2[starts-with(text(),'Восстановление')]"
 CONSTRUCTOR_LINK = "//a[starts-with(@class, 'AppHeader_header__link')]/p[text()='Конструктор']" # Ссылка на главную через "Конструктор"
 MAIN_PAGE_MENU_BURGER = "//div[starts-with(@class, 'BurgerIngredients_ingredients__menuContainer')]/h2[1]" # Заголовок "Булки"
 LOGO_LINK = "//div[starts-with(@class, 'AppHeader_header__logo')]/a" # Ссылка на лого
+LOGOUT_BUTTON = "//button[text()='Выход']" # Кнопка "Выход"
