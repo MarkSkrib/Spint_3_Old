@@ -14,3 +14,6 @@ MAIN_PAGE_LOGIN_BTN = "//button[text()='Войти в аккаунт']" # Кно
 LOGGED_IN = "//button[text()='Оформить заказ']" # Кнопка оформить заказ на главной странице
 LOGIN_LINK_IN_OTHER_PAGE = "//a[text()='Войти']" # Ссылка "Войти" на страницу входа в других страницах
 RESET_PASSWORD_PAGE = "//h2[starts-with(text(),'Восстановление')]" # Страница с заголовком "Восстановление пароля"
+CONSTRUCTOR_LINK = "//a[starts-with(@class, 'AppHeader_header__link')]/p[text()='Конструктор']" # Ссылка на главную через "Конструктор"
+MAIN_PAGE_MENU_BURGER = "//div[starts-with(@class, 'BurgerIngredients_ingredients__menuContainer')]/h2[1]" # Заголовок "Булки"
+LOGO_LINK = "//div[starts-with(@class, 'AppHeader_header__logo')]/a" # Ссылка на лого
